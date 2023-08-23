@@ -9,3 +9,8 @@
     border-radius: 4px;
     user-select: none;
 }
+.swiper{
+    width: 375px;
+    height: 100vh;
+    margin: 0 auto;
+}

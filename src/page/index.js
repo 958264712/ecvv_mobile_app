@@ -18,6 +18,7 @@ const verticalItems = list.map((item, index) => (
 const Layout = () => {
     return (
       <Swiper
+        className="swiper"
         direction="vertical"
         loop='true'
         style={{ "--height": "100vh" }}
