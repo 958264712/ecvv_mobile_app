@@ -96,6 +96,7 @@ const Three = () => {
                     width: "241.5px",
                     height: "45.5px",
                   }}
+                  draggable="false"
                   src={threeKong}
                 />
               </div>
@@ -125,6 +126,7 @@ const Three = () => {
                     width: "299px",
                     height: "17px",
                   }}
+                  draggable="false"
                   src={three_blue_bottom}
                 />
               </div>
@@ -153,6 +155,7 @@ const Three = () => {
                     width: "271px",
                     height: "42.5px",
                   }}
+                  draggable="false"
                   src={three_blue}
                 />
               </div>

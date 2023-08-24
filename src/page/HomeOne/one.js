@@ -57,7 +57,7 @@ const One = () => {
               zIndex: 12,
               opacity: 1,
               width: "124px",
-              height: "34px",
+              height: "38px",
               bottom: "13vh",
               left: "33vw",
             }}
@@ -74,11 +74,11 @@ const One = () => {
               }}
             >
               <div className="elementboxcontents">
-                  <span
-                    style={{ color: "rgb(176, 197, 220)", fontSize: " 18px" }}
-                  >
-                    www.ecvv.com
-                  </span>
+                <span
+                  style={{ color: "rgb(176, 197, 220)", fontSize: " 18px" }}
+                >
+                  www.ecvv.com
+                </span>
               </div>
             </div>
           </li>
@@ -125,11 +125,6 @@ const One = () => {
             <div
               className="elementbox"
               style={{
-                width: "100%",
-                height: "100%",
-                zIndex: "auto",
-                color: "rgb(103, 103, 103)",
-                textAlign: "left",
                 animation: " 1s ease 1s 1 normal both running fadeInLeft",
               }}
             >
@@ -142,6 +137,7 @@ const One = () => {
                     height: "27.5451px",
                     marginTop: "3.77257px",
                   }}
+                  draggable="false"
                   src={ecvvLogo}
                 />
               </div>
@@ -181,6 +177,7 @@ const One = () => {
                     width: "164px",
                     height: "188.5px",
                   }}
+                  draggable="false"
                   src={left}
                 />
               </div>
@@ -215,6 +212,7 @@ const One = () => {
                     width: "130px",
                     height: "120px",
                   }}
+                  draggable="false"
                   src={top}
                 />
               </div>
@@ -249,6 +247,7 @@ const One = () => {
                     width: "123.5px",
                     height: " 85.5px",
                   }}
+                  draggable="false"
                   src={thumbnail}
                 />
               </div>
@@ -285,6 +284,7 @@ const One = () => {
                     width: " 136.5px",
                     height: " 21px",
                   }}
+                  draggable="false"
                   src={introdiction}
                 />
               </div>
@@ -318,6 +318,7 @@ const One = () => {
                     width: " 138px",
                     height: " 33px",
                   }}
+                  draggable="false"
                   src={company}
                 />
               </div>
@@ -354,6 +355,7 @@ const One = () => {
                     height: " 79px",
                     marginleft: "7.10543e15px",
                   }}
+                  draggable="false"
                   src={rightBottom}
                 />
               </div>
@@ -390,6 +392,7 @@ const One = () => {
                     width: " 110px",
                     height: " 71.5px",
                   }}
+                  draggable="false"
                   src={leftTop}
                 />
               </div>
@@ -426,6 +429,7 @@ const One = () => {
                     height: " 436px",
                     marginleft: "0.149022px",
                   }}
+                  draggable="false"
                   className="element comp_image editableimage"
                   src={oneBackground}
                 />
@@ -434,6 +438,7 @@ const One = () => {
           </li>
         </ul>
       </div>
+
       <section className="u-arrow-bottom" style={{ bottom: "7vh" }}>
         <div className="pre-wrap-bottom">
           <div className="pre-box1">

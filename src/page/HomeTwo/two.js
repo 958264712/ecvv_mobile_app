@@ -152,6 +152,7 @@ const Two = () => {
                     width: "151px",
                     height: "22.5px",
                   }}
+                  draggable="false"
                   src={twoBusiness}
                 />
               </div>
@@ -181,6 +182,7 @@ const Two = () => {
                     width: "241.5px",
                     height: "45.5px",
                   }}
+                  draggable="false"
                   src={kong}
                 />
               </div>
@@ -210,6 +212,7 @@ const Two = () => {
                     width: "299px",
                     height: "17px",
                   }}
+                  draggable="false"
                   src={blueimg}
                 />
               </div>
@@ -238,6 +241,7 @@ const Two = () => {
                     width: "271px",
                     height: "42.5px",
                   }}
+                  draggable="false"
                   className="element comp_image editable-image"
                   src={blueimg_two}
                 />
