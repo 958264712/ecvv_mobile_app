@@ -234,6 +234,16 @@ const Eight = () => {
           </li>
         </ul>
       </div>
+      <section className="u-arrow-bottom" style={{ bottom: "50px" }}>
+        <div className="pre-wrap-bottom">
+          <div className="pre-box1">
+            <div className="pre1"></div>
+          </div>
+          <div className="pre-box2">
+            <div className="pre2"></div>
+          </div>
+        </div>
+      </section>
     </section>
   );
 };

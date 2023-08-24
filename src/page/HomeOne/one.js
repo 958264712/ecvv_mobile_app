@@ -10,7 +10,6 @@ import rightBottom from "../../assets/images/rightBottom.webp";
 import introdiction from "../../assets/images/introdiction.webp";
 import thumbnail from "../../assets/images/thumbnail.webp";
 
-
 const One = () => {
   return (
     <section className="main-page">
@@ -123,9 +122,7 @@ const One = () => {
               }}
             >
               <div className="elementboxcontents">
-                <div
-                  className="element comp_paragraph editabletext"
-                >
+                <div className="element comp_paragraph editabletext">
                   <span style={{ color: "rgb(9, 76, 145)", fontSize: "14px" }}>
                     深圳伊西威威网络科技股份有限公司
                   </span>
@@ -151,7 +148,7 @@ const One = () => {
                 width: "100%",
                 height: "100%",
                 zIndex: "auto",
-                
+
                 color: "rgb(103, 103, 103)",
                 textAlign: "left",
                 animation: " 1s ease 1s 1 normal both running fadeInLeft",
@@ -191,7 +188,7 @@ const One = () => {
                 top: "274.5px",
                 left: "25px",
                 zIndex: "auto",
-                
+
                 color: "rgb(103, 103, 103)",
                 textAlign: "left",
                 animation: " 1s ease 0.8s 1 normal both running fadeInLeft",
@@ -219,7 +216,7 @@ const One = () => {
               width: "130px",
               height: "120px",
               top: "160.5px",
-              right:'-10px'
+              right: "-10px",
             }}
           >
             <div
@@ -266,10 +263,10 @@ const One = () => {
                 top: "2px",
                 left: "27px",
                 zIndex: "auto",
-                
+
                 color: "rgb(103, 103, 103)",
                 textAlign: "left",
-                
+
                 animation: " 1s ease 0.5s 1 normal both running fadeInLeft",
               }}
             >
@@ -340,10 +337,10 @@ const One = () => {
                 width: "100%",
                 height: "100%",
                 zIndex: "auto",
-                
+
                 color: "rgb(103, 103, 103)",
                 textAlign: "left",
-                
+
                 animation: " 1s ease 1.3s 1 normal both running fadeInLeft",
               }}
             >
@@ -412,8 +409,6 @@ const One = () => {
               style={{
                 width: "100%",
                 height: "100%",
-                top: " 25.5px",
-                left: " 29px",
                 zIndex: "auto",
                 color: "rgb(103, 103, 103)",
                 textAlign: "left",
@@ -450,13 +445,9 @@ const One = () => {
               style={{
                 width: "100%",
                 height: "100%",
-                top: " 19px",
-                left: " 28px",
                 zIndex: "auto",
-                
                 color: "rgb(103, 103, 103)",
                 textAlign: "left",
-                
                 animation: "1s ease 0.3s 1 normal both running fadeInUp",
               }}
             >
@@ -476,6 +467,16 @@ const One = () => {
           </li>
         </ul>
       </div>
+      <section className="u-arrow-bottom" style={{bottom:" 30px"}}>
+        <div className="pre-wrap-bottom">
+          <div className="pre-box1">
+            <div className="pre1"></div>
+          </div>
+          <div className="pre-box2">
+            <div className="pre2"></div>
+          </div>
+        </div>
+      </section>
     </section>
   );
 };

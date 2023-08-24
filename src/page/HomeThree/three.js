@@ -228,14 +228,21 @@ const Three = () => {
                 title="2023 ECVV建立沙特本地仓,提供面向沙特的本土化运营服务"
                 status="finish"
               />
-              <Step
-                title="2023 荣获省级专精特新企业"
-                status="finish"
-              />
+              <Step title="2023 荣获省级专精特新企业" status="finish" />
             </Steps>
           </li>
         </ul>
       </div>
+      <section className="u-arrow-bottom" style={{ bottom: "50px" }}>
+        <div className="pre-wrap-bottom">
+          <div className="pre-box1">
+            <div className="pre1"></div>
+          </div>
+          <div className="pre-box2">
+            <div className="pre2"></div>
+          </div>
+        </div>
+      </section>
     </section>
   );
 };
