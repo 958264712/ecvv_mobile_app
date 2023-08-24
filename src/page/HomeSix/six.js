@@ -250,7 +250,7 @@ const Six = () => {
           </li>
         </ul>
       </div>
-      <section className="u-arrow-bottom" style={{ bottom: "50px" }}>
+      <section className="u-arrow-bottom" style={{ bottom: "7vh" }}>
         <div className="pre-wrap-bottom">
           <div className="pre-box1">
             <div className="pre1"></div>

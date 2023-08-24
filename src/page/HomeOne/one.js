@@ -23,9 +23,8 @@ const One = () => {
               opacity: 1,
               width: "200px",
               height: "30px",
-              bottom: "130px",
-              left: "88px",
-              transform: "rotateZ(0deg)",
+              bottom: "19vh",
+              left: "23vw",
             }}
           >
             <div
@@ -57,12 +56,10 @@ const One = () => {
               position: "absolute",
               zIndex: 12,
               opacity: 1,
-              width: "231px",
-              height: "38px",
-              bottom: "90px",
-              left: "110px",
-              transform: " rotateZ(0deg)",
-              display: "block",
+              width: "124px",
+              height: "34px",
+              bottom: "15vh",
+              left: "33vw",
             }}
           >
             <div
@@ -70,30 +67,18 @@ const One = () => {
               style={{
                 width: "100%",
                 height: "100%",
-                fontSize: "24px",
                 writingMode: "horizontaltb",
                 zIndex: "auto",
-                borderStyle: "solid, color: rgb(103, 103, 103)",
                 textAlign: "left",
                 animation: " 1s ease 2s 1 normal both running fadeInUp",
               }}
             >
               <div className="elementboxcontents">
-                <div
-                  className="element comp_paragraph editabletext"
-                  style={{
-                    cursor: "default",
-                    userselect: "auto",
-                    fontSize: "24px",
-                    writingmode: "horizontaltb",
-                  }}
-                >
                   <span
                     style={{ color: "rgb(176, 197, 220)", fontSize: " 18px" }}
                   >
                     www.ecvv.com
                   </span>
-                </div>
               </div>
             </div>
           </li>
@@ -105,18 +90,13 @@ const One = () => {
               opacity: 1,
               width: "228px",
               height: "43px",
-              top: "420px",
-              right: "10px",
-              transform: "rotateZ(0deg)",
-              display: "block",
+              top: "55vh",
+              right: "5px",
             }}
           >
             <div
               className="elementbox"
               style={{
-                width: "100%",
-                height: " 100%",
-                color: " rgb(103, 103, 103)",
                 textAlign: "left",
                 animation: "1s ease 1.6s 1 normal both running fadeInRight",
               }}
@@ -138,7 +118,7 @@ const One = () => {
               opacity: 1,
               width: "66px",
               height: "30px",
-              top: "300px",
+              top: "50vh",
               right: "10px",
             }}
           >
@@ -148,7 +128,6 @@ const One = () => {
                 width: "100%",
                 height: "100%",
                 zIndex: "auto",
-
                 color: "rgb(103, 103, 103)",
                 textAlign: "left",
                 animation: " 1s ease 1s 1 normal both running fadeInLeft",
@@ -225,8 +204,6 @@ const One = () => {
                 width: "100%",
                 height: "100%",
                 zIndex: "auto",
-                color: "rgb(103, 103, 103)",
-                textAlign: "left",
                 animation: " 1s ease 0.8s 1 normal both running fadeInRight",
               }}
             >
@@ -260,13 +237,7 @@ const One = () => {
               style={{
                 width: "100%",
                 height: "100%",
-                top: "2px",
-                left: "27px",
                 zIndex: "auto",
-
-                color: "rgb(103, 103, 103)",
-                textAlign: "left",
-
                 animation: " 1s ease 0.5s 1 normal both running fadeInLeft",
               }}
             >
@@ -291,7 +262,7 @@ const One = () => {
               opacity: 1,
               width: "136.5px",
               height: "21px",
-              bottom: "270px",
+              top: "66vh",
               right: "10px",
             }}
           >
@@ -327,7 +298,7 @@ const One = () => {
               opacity: 1,
               width: "138px",
               height: "33px",
-              bottom: "300px",
+              top: "60vh",
               right: "10px",
             }}
           >
@@ -337,10 +308,6 @@ const One = () => {
                 width: "100%",
                 height: "100%",
                 zIndex: "auto",
-
-                color: "rgb(103, 103, 103)",
-                textAlign: "left",
-
                 animation: " 1s ease 1.3s 1 normal both running fadeInLeft",
               }}
             >
@@ -364,7 +331,7 @@ const One = () => {
               opacity: 1,
               width: "110px",
               height: "79px",
-              top: "540px",
+              bottom: "10vh",
               right: "0",
             }}
           >
@@ -467,7 +434,7 @@ const One = () => {
           </li>
         </ul>
       </div>
-      <section className="u-arrow-bottom" style={{bottom:" 30px"}}>
+      <section className="u-arrow-bottom" style={{ bottom: "7vh" }}>
         <div className="pre-wrap-bottom">
           <div className="pre-box1">
             <div className="pre1"></div>
