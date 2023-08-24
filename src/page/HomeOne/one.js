@@ -58,7 +58,7 @@ const One = () => {
               opacity: 1,
               width: "124px",
               height: "34px",
-              bottom: "15vh",
+              bottom: "13vh",
               left: "33vw",
             }}
           >
